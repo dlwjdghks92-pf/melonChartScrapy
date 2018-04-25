@@ -122,7 +122,7 @@ for i in range(12):
 
     for idx, str_ in enumerate(info_list[3], 2):
         ws.cell(row=idx + cnt, column=5).value = str_
-    print('list number ok')
+    print('like number ok')
 
     for rownum in range(2, 102):
         ws.cell(row=rownum + cnt, column=6).value = startDay

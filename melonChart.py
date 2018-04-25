@@ -102,7 +102,7 @@ else:
 
 info_list = get_info_list(html)     # tuple형태로 정보를 가져옴
 
-# column name
+# write column name
 ws.cell(row=1, column=1).value = 'ranking'
 ws.cell(row=1, column=2).value = 'title'
 ws.cell(row=1, column=3).value = 'singer'
@@ -125,7 +125,7 @@ print('album ok')
 
 for idx, str_ in enumerate(info_list[3], 2):
     ws.cell(row=idx, column=5).value = str_
-print('list number ok')
+print('like number ok')
 
 for rownum in range(2, 102):
     ws.cell(row=rownum, column=6).value = date
