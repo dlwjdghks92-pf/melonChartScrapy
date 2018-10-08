@@ -13,7 +13,7 @@
     datetime
     
 ## how to run
-    python3 melongChart.py
+    python3 melonChart.py
     python3 melonChartWeek.py
 <br>
 
